@@ -94,7 +94,7 @@ body {
   padding-bottom: 20px;
 }
 
-.footer__menu-item + .footer__menu-item{
+.footer__menu-item + .footer__menu-item {
   padding-top: 20px;
 }
 
@@ -124,4 +124,29 @@ body {
 
 .main {
   flex-grow: 1;
+}
+
+/* Section Top */
+.top {
+  color: #fff;
+  text-align: center;
+  padding-top: 105px;
+  padding-bottom: 50px;
+}
+
+.title {
+  margin-bottom: 40px;
+  font-weight: 700;
+  font-size: 96px;
+}
+
+.top__link {
+  display: inline-block;
+  background-color: #151515;
+  padding: 23px;
+  max-width: 430px;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 36px;
 }
