@@ -138,7 +138,7 @@ body {
   z-index: 5;
   color: #fff;
   text-align: center;
-  padding-top: 105px;
+  padding-top: 250px;
   padding-bottom: 50px;
 }
 
@@ -159,10 +159,40 @@ body {
   font-size: 36px;
 }
 
-.swiper-wrapper {
+.swiper::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 5;
   background-color: rgba(21, 21, 21, 0.3);
 }
 
+
+
 .swiper-slide {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   height: 100vh;
+}
+
+.swiper-pagination-bullet {
+  width: 120px;
+  height: 3px;
+  background-color: #151515;
+  border-radius: 0;
+  opacity: 1;
+}
+.swiper-pagination-bullet-active {
+  height: 6px;
+  background-color: #fff;
+}
+
+.swiper-pagination-horizontal.swiper-pagination-bullets
+  .swiper-pagination-bullet {
+  margin: 0 15px;
+}
+
+.swiper-pagination-bullets.swiper-pagination-horizontal {
+  bottom: 50px;
 }
