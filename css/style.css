@@ -24,6 +24,14 @@ a {
   color: inherit;
 }
 
+.section-title {
+  font-weight: 700;
+  font-size: 48px;
+  margin-bottom: 50px;
+  text-align: center;
+  color: #151515;
+}
+
 .wrapper {
   min-height: 100%;
   display: flex;
@@ -160,14 +168,12 @@ body {
 }
 
 .swiper::after {
-  content: '';
+  content: "";
   position: absolute;
   inset: 0;
   z-index: 5;
   background-color: rgba(21, 21, 21, 0.3);
 }
-
-
 
 .swiper-slide {
   background-repeat: no-repeat;
@@ -195,4 +201,31 @@ body {
 
 .swiper-pagination-bullets.swiper-pagination-horizontal {
   bottom: 50px;
+}
+
+/* Section why-lease */
+.why-lease {
+  padding: 150px 0;
+}
+
+.why-lease__list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 40px;
+  text-align: center;
+  color: #151515;
+}
+
+.why-lease__item-img {
+  margin-bottom: 30px;
+}
+
+.why-lease__item-title {
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.why-lease__item-text {
+  text-align: left;
 }
