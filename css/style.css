@@ -229,3 +229,24 @@ body {
 .why-lease__item-text {
   text-align: left;
 }
+
+/* Section How-does */
+.how-does {
+  padding-bottom: 150px;
+}
+
+.how-does__inner {
+  max-width: 594px;
+  margin: 0 auto;
+}
+
+.how-does__title {
+  font-weight: 700;
+  font-size: 24px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.how-does__list {
+  margin-bottom: 70px;
+}
