@@ -83,6 +83,10 @@ body {
   text-transform: uppercase;
 }
 
+.menu__list-link--active {
+  color: #06f;
+}
+
 /* Footer */
 .footer {
   background-color: #151515;
