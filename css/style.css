@@ -449,3 +449,29 @@ body {
 .blog__btn {
   display: block;
 }
+
+/* Section  Choose*/
+.choose {
+  padding: 100px 0 150px;
+}
+
+.tabs__btn {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 150px;
+  gap: 80px;
+  margin-bottom: 100px;
+}
+
+.tabs__btn-item {
+  font-weight: 700;
+  font-size: 24px;
+  color: #151515;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.tabs__btn-item--active {
+  color: #06f;
+}
