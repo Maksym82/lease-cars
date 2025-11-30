@@ -455,6 +455,10 @@ body {
   padding: 100px 0 150px;
 }
 
+.tabs {
+  margin-bottom: 70px;
+}
+
 .tabs__btn {
   display: flex;
   justify-content: space-between;
@@ -477,17 +481,13 @@ body {
 }
 
 .tabs__content-item {
-  display: grid;
+  display: none;
   grid-template-columns: repeat(4, 1fr);
-  column-gap: 40px;
+  gap: 100px 40px;
 }
 
-.tabs__content-item {
-  margin-bottom: 100px;
-}
-
-.tabs__content-item:last-child {
-  margin-bottom: 70px;
+.tabs__content-item.tabs__content-item--active {
+  display: grid;
 }
 
 .card {
