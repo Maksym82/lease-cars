@@ -415,6 +415,12 @@ body {
   line-height: 1.3;
   border: none;
   cursor: pointer;
+  transition: background-color .25s linear;
+}
+
+.form__btn:hover,
+.form__btn:focus {
+  background-color: #4f4343;
 }
 
 /* Section Blog */
@@ -452,6 +458,12 @@ body {
   padding: 4px 20px;
   align-self: center;
   cursor: pointer;
+  transition: background-color .25s linear;
+}
+
+.blog__item-link:hover,
+.blog__item-link:focus {
+  background-color: rgb(86, 147, 239);
 }
 
 .blog__btn {
