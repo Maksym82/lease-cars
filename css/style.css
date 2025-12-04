@@ -114,6 +114,12 @@ body {
   padding-top: 20px;
 }
 
+.footer__menu-link:hover, 
+.footer__menu-link:focus {
+  text-decoration: underline;
+  color: #06f;
+}
+
 .app {
   display: flex;
   justify-content: center;
