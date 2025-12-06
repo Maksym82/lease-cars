@@ -144,6 +144,11 @@ body {
   gap: 40px;
 }
 
+.copy__nav-link:hover,
+.copy__nav-link:focus {
+  text-decoration: underline;
+}
+
 .main {
   flex-grow: 1;
 }
